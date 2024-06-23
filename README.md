@@ -16,7 +16,7 @@ Este código é um conversor de arquivos Python (.py) para arquivos executáveis
      - Obtém o caminho do arquivo Python informado.
      - Verifica se um arquivo foi selecionado, caso contrário, exibe um erro.
      - Usa o **PyInstaller** (uma biblioteca para criar executáveis a partir de scripts Python) para realizar a conversão.
-     - Executa o `PyInstaller` no terminal com a opção **onefile** para gerar um único arquivo executável.
+     - Executa o **PyInstaller** no terminal com a opção **onefile** para gerar um único arquivo executável.
      - Procura o arquivo .exe gerado na pasta **dist**.
      - Se o arquivo .exe for encontrado, exibe uma mensagem de sucesso com o caminho do executável.
      - Se ocorrer um erro durante o processo, exibe uma mensagem de erro correspondente.
